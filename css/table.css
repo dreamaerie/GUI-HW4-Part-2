@@ -1,0 +1,97 @@
+body {
+    background-color: gray;
+}
+
+form {
+    margin-top: auto;
+    margin-right: auto;
+    width: 250px;
+    padding: 8px;
+    background-color: rgb(214, 242, 252);
+    border-radius: 8px;
+}
+
+input {
+    width: 50px;
+}
+
+#submit {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+#error_msg {
+    color: red;
+    font-weight: bolder;
+}
+
+.uiContaitner { 
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.uiContaitner::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.uiCol {
+    border-radius: 8px;
+    /* background-color: rgb(214, 242, 252); */
+}
+
+.errorContainer {
+    background-color: rgb(70, 1, 1);
+    width: 250px;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+#tableHolder {
+    margin: auto;
+    padding-left: auto;
+    /* padding-right: auto; */
+    padding-top: auto;
+    max-width: 95%;
+    max-height: 450px;
+    overflow: auto;
+}
+
+table {
+    background-color: skyblue;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-top: auto;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    table-layout:fixed;
+}
+
+tr {
+    border: 1px solid;
+    border-color: skyblue;
+}
+
+th {
+    background-color: rgb(135, 100, 199);
+    border:1px solid;
+}
+
+td {
+    border: 1px solid;
+    text-align: center;
+}
+
+.colHeader {
+    font-weight: bold;
+}
+
+.dark {
+    background-color: rgb(88, 208, 255);
+}
